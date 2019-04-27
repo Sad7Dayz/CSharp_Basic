@@ -15,12 +15,12 @@ namespace Basic
             mycar.Model = "Sonata";
 
             mycar.Start();
-            mycar.Accelerate(19);
+            mycar.Accelerate(10);
             int speed = mycar.Speed;
             Console.WriteLine(speed);
 
             mycar.Accelerate(20);
-            Console.WriteLine(speed);
+            Console.WriteLine(mycar.Speed);
 
             mycar.Stop();
         }

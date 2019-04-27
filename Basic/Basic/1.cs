@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Basic
 {
-    class 1
+    class weater
     {
         static void Main(string[] args)
         {
